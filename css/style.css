@@ -26,29 +26,33 @@ body{
 .products-offered{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.box {
-    width: 100px;
-    height: 100px;
+    justify-content: space-evenly;
 }
 
-.main-box {
-    width:200px;
-    height: 200px;
-    position: relative;
+.product-article {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: #333333;
+    padding: 50px;
+    text-align: center;
+    margin:15px;
+    border: #dadada solid 2px;
+    border-top:brown solid 3px;
 }
 
-.red{
-    background-color: red;
+i {
+    color: #6f4e37;
+    padding-bottom: 30px;
 }
 
-.blue {
-    background-color: blue;
-    position: absolute;
-    right: 0;
-}
-
-.yellow{
-    background-color: yellow;
+.coffee-article{
+    background-image: url("../asset/img/coffee-arabica.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: cover;
+    color: #fafafa;
+    text-align: center;
+    padding: 80px 50px;
+    height: 80%;
 }
