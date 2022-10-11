@@ -7,6 +7,7 @@ body{
     color:#333333;
 }
 
+
 .hero-kv{
     position: relative;
 }
@@ -22,6 +23,10 @@ body{
     height:100%;
 }
 
+section {
+    padding: 80px 50px;
+    margin: 15px 7px;
+}
 
 .products-offered{
     display: flex;
@@ -57,11 +62,34 @@ i {
     height: 80%;
 }*/
 
+.coffee-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .coffee-article {
     width: 50%;
     float: left;
+    padding-right: 80px;
 }
 .coffee-img {
     width: 50%;
-    float: right;
+    max-height: 500px;
+    object-fit: fill;
+}
+
+.color-brown {
+    color:#6f4e37;
+}
+
+footer{
+    padding: 15px 50px;
+    background-color: #fca465e8;
+    color:white;
+    text-align: center;
+}
+
+.socials {
+    margin: 5px;
 }
