@@ -45,7 +45,7 @@ i {
     padding-bottom: 30px;
 }
 
-.coffee-article{
+/*coffee-article{
     background-image: url("../asset/img/coffee-arabica.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -55,4 +55,13 @@ i {
     text-align: center;
     padding: 80px 50px;
     height: 80%;
+}*/
+
+.coffee-article {
+    width: 50%;
+    float: left;
+}
+.coffee-img {
+    width: 50%;
+    float: right;
 }
