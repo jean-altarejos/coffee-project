@@ -17,8 +17,7 @@ body{
     color: #fafafa;
     position: absolute;
     top: 0;
-    padding-top: 85px;
-    padding-bottom: 85px;
+    padding-top: 10%;
     width:100%;
     height:100%;
 }
@@ -26,6 +25,14 @@ body{
 section {
     padding: 80px 50px;
     margin: 15px 7px;
+}
+
+.hero-section {
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
 }
 
 .products-offered{
@@ -63,27 +70,55 @@ i {
 }*/
 
 .coffee-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display:flex;
+   height: 100%;
+}
+
+.full-img {
+    background-image: url("../asset/img/coffee-and-waffle.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
 }
 
 .coffee-article {
     width: 50%;
-    float: left;
     padding-right: 80px;
 }
+
+
+.spacing {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
 .coffee-img {
-    width: 50%;
-    max-height: 500px;
-    object-fit: fill;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    margin: 0 5px;
 }
 
 .color-brown {
     color:#6f4e37;
 }
 
+.bgcolor-brown {
+    background-color:#6f4e37;
+}
+
 footer{
+    clear: both;
     padding: 15px 50px;
     background-color: #fca465e8;
     color:white;
@@ -92,4 +127,12 @@ footer{
 
 .socials {
     margin: 5px;
+}
+
+.sample-bg {
+   background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
