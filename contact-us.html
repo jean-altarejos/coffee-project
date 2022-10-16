@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/4338a4eed9.js" crossorigin="anonymous"></script>
+
+    <title>Contact Us - Coffee Prince</title>
+</head>
+<body>
+    <!--Company Logo, Company Name, Navbar, Cart-->
+    <header>
+        <div>        
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <!--Company Logo-->
+                    <img class="logo" src="asset/img/logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container contact-us-hero">
+            <img class="img-fluid bg-img" src="asset/img/coffee-shop.jpg">
+            <div class="contact-us-cta">
+                <h1>Send Us A Message</h1>
+            </div>
+        </div>
+
+        <div class="container form-section">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="asset/img/contact-us-img.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="color-brown"><strong>We'd love to hear from you!</strong></h2>
+                    <hr>
+                    <form>
+                        <div class="mt-3 mb-3 form-group">
+                          <label for="full-name">Full Name</label>
+                          <input type="text" class="form-control" id="fullName" aria-describedby="fullName" placeholder="Full Name">
+                        </div>
+                        <div class="mt-3 mb-3 form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="mt-3 mb-3 form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" rows="5" id="message" name="text"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary cta-button">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <!--Company Logo, Contact us, Navbar-->
+    <footer>
+        <div>
+          <img src="asset/img/logo.png" alt="">
+          <h4>Coffee Prince</h6>
+          <h6>Seoul, South Korea</h6>
+        </div>
+        <div >
+          <i class="socials fa-brands fa-facebook"></i>
+          <i class="socials fa-brands fa-instagram"></i>
+          <i class="socials fa-brands fa-tiktok"></i>
+          <i class="socials fa-solid fa-envelope"></i>
+        </div>
+        
+      </footer>
+</body>
+</html>

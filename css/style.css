@@ -52,22 +52,20 @@ section {
     border-top:brown solid 3px;
 }
 
-i {
-    color: #6f4e37;
-    padding-bottom: 30px;
+.cta-button {
+    background-color: #6f4e37;
+    color: #fafafa;
 }
 
-/*coffee-article{
-    background-image: url("../asset/img/coffee-arabica.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    display: cover;
-    color: #fafafa;
-    text-align: center;
+.container-fluid {
     padding: 80px 50px;
-    height: 80%;
-}*/
+    margin: 15px 7px;
+}
+
+.spacer {
+    padding-top: 10%;
+    padding-right: 80px;
+}
 
 .coffee-section {
    display:flex;
@@ -83,6 +81,7 @@ i {
     width: 100%;
     height: 800px;
 }
+
 
 .coffee-article {
     width: 50%;
@@ -117,6 +116,13 @@ i {
     background-color:#6f4e37;
 }
 
+.footer-cta {
+    color:#fafafa;
+    background-color:#6f4e37;
+    text-align: center;
+    margin: 0;
+}
+
 footer{
     clear: both;
     padding: 15px 50px;
@@ -136,3 +142,33 @@ footer{
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+/*CONTACT US PAGE CSS*/
+
+.form-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-us-hero {
+    position: relative;
+}
+
+.contact-us-cta {
+    position: absolute;
+    background: rgb(0,0,0,0.5);
+    color: white;
+    top: 0;
+    width:100%;
+    height:300px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.bg-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
