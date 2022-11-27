@@ -151,6 +151,25 @@ footer{
     margin-bottom: 80px;
 }
 
+.form-control.success  {
+    color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error  {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
 .contact-us-hero {
     position: relative;
 }
