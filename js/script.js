@@ -61,3 +61,52 @@ function setSuccessFor(input) {
 function isEmail(email){
     return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email);
 }
+
+
+//Google Map API
+function initMap(){
+    var options = {
+      zoom: 8,
+      center: {lat: 37.5665, lng: 126.9780},
+    }
+
+    var map = new google.maps.Map(document.getElementById('map'), options);
+
+    //Array of Markers
+
+    var markers = [
+        {
+            coords: {lat: 37.5665, lng: 126.9780},
+            content: '<h1>Seoul, South Korea</h1>'
+        },
+        {
+            coords:{lat: 37.4563, lng: 126.7052},
+            content: '<h1>Incheon, South Korea</h1>'
+        },
+        {
+            coords:{lat: 37.6584, lng: 126.8320},
+            content: '<h1>Goyang, South Korea</h1>'
+        }
+    ];
+
+    //loop through markers
+    for(var i = 0; i < markers.length; i++){
+        addMarker(markers[i]);
+    }
+
+    function addMarker(props){
+        var marker = new google.maps.Marker({
+        position: props.coords,
+        map:map,
+        });
+
+        //Check Content
+        var infoWindow = new google.maps.InfoWindow({
+            content: props.content
+          });
+      
+          marker.addListener('click', function(){
+            infoWindow.open(map, marker);
+          });
+    }
+}

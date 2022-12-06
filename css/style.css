@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 body{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
     font-weight: 500px;
     color:#333333;
 }
+
+h1,h2 {
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 35px;
+}
+
+h3 {
+    font-weight: 800;
+    line-height: 1.5;
+}
+
 
 
 .hero-kv{
@@ -55,11 +67,12 @@ section {
 .cta-button {
     background-color: #6f4e37;
     color: #fafafa;
+    margin-top: 10px;
 }
 
 .container-fluid {
-    padding: 80px 50px;
-    margin: 15px 7px;
+    padding: 30px 30px;
+    margin: 7px 7px;
 }
 
 .spacer {
@@ -145,6 +158,50 @@ footer{
 
 
 /*CONTACT US PAGE CSS*/
+#map {
+    height: 400px;
+    width: 100%;
+
+}
+
+.contact-div {
+    padding: 80px 30px;
+}
+
+.copy-contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ctc-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.ctc-info-title {
+    font-weight: 1000;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ctc-info-desc {
+    color: #969696;
+    font-size: 16px;
+}
+ 
+.icon {
+   text-align: center;
+   flex: 1;
+}
+
+i {
+    margin-bottom: 15px;
+}
+
 
 .form-section {
     margin-top: 80px;

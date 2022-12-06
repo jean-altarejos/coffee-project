@@ -18,6 +18,8 @@
     <script src="https://kit.fontawesome.com/4338a4eed9.js" crossorigin="anonymous"></script>
 
     <title>Contact Us - Coffee Prince</title>
+
+    
 </head>
 <body>
     <!--Company Logo, Company Name, Navbar, Cart-->
@@ -62,10 +64,33 @@
             </div>
         </div>
 
+
+        <!--Contact Us Form with Copy-->
         <div class="container">
-            <form action="post" class="contactForm">
-              <div class="row">
-                <div class="form-group col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 contact-div">
+              <h3>Want to feel like a princess in a korean drama? Our Princes would like to know more about you!. Send us your message here!</h3>
+              <div class="ctc-info">
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot fa-lg"></i>
+                  <h4 class="ctc-info-title">Our Office</h4>
+                  <p class="ctc-info-desc">327-17 Seogyo-dong, Mapo-gu, Seoul, South Korea</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-envelope fa-lg"></i>
+                  <h4 class="ctc-info-title">Our Email</h4>
+                  <p class="ctc-info-desc">coffee-prince@gmail.com</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-phone fa-lg"></i>
+                  <h4 class="ctc-info-title">Phone Number</h4>
+                  <p class="ctc-info-desc">(+63) 921-1234567</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 contact-div">
+              <form action="post" class="contactForm">
+                <div class="form-group">
                   <label for="fullName" class="form-label">Full Name</label>
                   <input type="text" class="form-control" id="fullName">
                   <small class="form-text" id="fullNameHelp"></small>
@@ -81,13 +106,15 @@
                   <small id="msgHelp" class="form-text"></small>
                   <button type="submit" class="btn btn-primary cta-button">Submit</button>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
-          
-        </div>
-        
-        
+            
+          </div>
+
+          <div id="map">
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq-jx6FDKlWjFWu701_p_ZRMz59X34NPA&callback=initMap"></script>
+          </div>
     </main>
 
     <!--Company Logo, Contact us, Navbar-->
@@ -107,5 +134,6 @@
 
 
       <script src="/js/script.js"></script>
+      
 </body>
 </html>
