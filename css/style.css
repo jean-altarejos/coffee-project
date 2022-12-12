@@ -160,7 +160,11 @@ footer{
 
 /*MENU*/
 .menu-container {
-    margin-top: 15px;
+    margin-top: 100px;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 80px;
+
 }
 
 .coffee-flex {
