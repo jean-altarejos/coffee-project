@@ -25,32 +25,32 @@
         <div>        
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container">
-                  <a class="navbar-brand" href="index.html">
-                    <!--Company Logo-->
-                    <img class="logo" src="asset/img/logo.png" alt="">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                      </li>
-                      <!--<li>
-                        <button class="btn btn-primary">Login</button>
-                      </li> -->
-                    </ul>
-                  </div>
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                  <!--Company Logo-->
+                  <img class="logo" src="asset/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarNav">  <!--d-flex flex-row-reverse-->
+                  <ul class="navbar-nav navbar-nav-scroll">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <!--<li>
+                      <button class="btn btn-primary">Login</button>
+                    </li> -->
+                  </ul>
                 </div>
-              </nav>
+              </div>
+            </nav>
         </div>
     </header>
 
@@ -103,6 +103,58 @@
         <p>Coffee Prince is a coffee and waffle shop located in Seoul, South Korea. We offer coffee and waffles to our customers while being served by our wonderful princes. We want you to enjoy your day by drinking high quality coffee while being served by our pleasant princes.</p>
       </section>
 
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 spacer">
+            <h2 class="color-brown">Our Coffee</h2>
+            <hr>
+            <p>If you are looking for homegrown, high quality brewed coffee. You have come to right place. Our coffee is locally harvested from a local farm located in korea.
+              With that in mind we are keen with our coffee beans and ensures to only delivery high quality beans to brew and to serve to you. <br>
+              We have a wide range of offering from Espresso, to lattes, to frappes etc..Just let our Prince Barista know what you want for the day.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 d-flex justify-content-center" style="background: red; height: 68vh;">
+              <img src="asset/img/coffee-arabica.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6"> 
+            <img class="img-fluid" srcset="asset/img/waffles-and-strawberry.jpg 300w" alt="">
+        </div>
+          <div class="col-lg-6 spacer">
+            <h2 class="color-brown">Let's Talk <strong>Waffles</strong>!</h2>
+            <hr>
+            <p>One of our Prince is actually an owner of a mini waffle stand along the road. His belgian waffles are made from heaven. It is light and buttery just like how we want it. Made with love we are sure that our homemmade belgian waffles are going to fill your hearts with joy.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="container"> <!--id="gallery"-->
+        <div class="row">
+          <div class="col-md-12 mb-4 mb-lg-0">
+            <img src="asset/img/coffee-arabica.jpg" alt="..." class="w-100 shadow-1-strong rounded mb-4">
+            <img src="asset/img/coffee-and-waffle.jpg"  alt="..." class="w-100 shadow-1-strong rounded mb-4">
+            <img src="asset/img/princes.jpg" alt="..." class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="asset/img/coffee-arabica.jpg" alt="..." class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="asset/img/coffee-arabica.jpg" alt="..." class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="asset/img/coffee-arabica.jpg" alt="..." class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+        </div>
+      </div>
+      
+
+
       <div class="row" id="gallery">
         <div class="col-12 col-lg-4">
           <img src="asset/img/coffee-arabica.jpg" class="w-100 img-fluid" alt="...">
@@ -112,36 +164,6 @@
         </div>
         <div class="col-12 col-lg-4">
           <img src="asset/img/princes.jpg" class="h-100 img-fluid" alt="...">
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 spacer">
-            <h2 class="color-brown">But first, <strong>Coffee!!</strong></h2>
-            <hr>
-            <p>If you are looking for homegrown, high quality brewed coffee. You have come to right place. Our coffee is locally harvested from a local farm located in korea.
-              With that in mind we are keen with our coffee beans and ensures to only delivery high quality beans to brew and to serve to you. <br>
-              We have a wide range of offering from Espresso, to lattes, to frappes etc..Just let our Prince Barista know what you want for the day.
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-12 d-flex justify-content-center"> 
-              <img class="h-150 w-150 img-thumbnail" srcset="asset/img/girl-holding-coffee.jpg 10x" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6"> 
-            <img class="img-thumbnail" srcset="asset/img/waffles-and-strawberry.jpg 300w" alt="">
-        </div>
-          <div class="col-lg-6 spacer">
-            <h2 class="color-brown">Let's Talk <strong>Waffles</strong>!</h2>
-            <hr>
-            <p>One of our Prince is actually an owner of a mini waffle stand along the road. His belgian waffles are made from heaven. It is light and buttery just like how we want it. Made with love we are sure that our homemmade belgian waffles are going to fill your hearts with joy.</p>
-          </div>
-          
         </div>
       </div>
 
